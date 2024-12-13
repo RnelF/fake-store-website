@@ -1,0 +1,36 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Igado",
+      "image": "Igado Image",
+      "time": 25,
+      "description": "A pork ulam that is mixed with coconut and bell peppers potatoes and pork liver",
+      "vegan": false
+    },
+    {
+      "id": "2",
+      "title": "Pork Adobo",
+      "image": "Pork Adobo Image",
+      "time": 20,
+      "description": "Pork adobo, also known as adobong baboy, is a flavorful, hearty Filipino dish of pork braised in vinegar, soy sauce, garlic, and other spices, and served over rice",
+      "vegan": false
+    },
+    {
+      "id": "3",
+      "title": "litson",
+      "image": "Litson Image",
+      "time": 240,
+      "description": "Lechon is a popular Filipino dish of a whole pig that's spit-roasted over charcoal and seasoned with oil and spices. It's known for its crispy, golden-brown skin and tender, juicy meat. Lechon is often served at celebrations like birthdays, Christmas dinners, fiestas, and anniversaries.",
+      "vegan": false
+    },
+    {
+      "id": "4",
+      "title": "Lumpiang Shanghai",
+      "image": "Shanghai Image",
+      "time": 4,
+      "description": "Lumpiang Shanghai is a basic type of lumpia, which is a Filipino fried spring roll. It's usually smaller and thinner than other lumpia varieties. The rolls are made by wrapping a mixture of ground meat, vegetables, and garlic in a thin egg crêpe and then deep-frying them.",
+      "vegan": false
+    }
+  ]
+}
