@@ -18,7 +18,7 @@
     },
     {
       "id": "3",
-      "title": "litson",
+      "title": "Litson",
       "image": "litson.jpg",
       "time": 240,
       "description": "Lechon is a popular Filipino dish of a whole pig that's spit-roasted over charcoal and seasoned with oil and spices. It's known for its crispy, golden-brown skin and tender, juicy meat. Lechon is often served at celebrations like birthdays, Christmas dinners, fiestas, and anniversaries.",
@@ -31,6 +31,14 @@
       "time": 4,
       "description": "Lumpiang Shanghai is a basic type of lumpia, which is a Filipino fried spring roll. It's usually smaller and thinner than other lumpia varieties. The rolls are made by wrapping a mixture of ground meat, vegetables, and garlic in a thin egg crêpe and then deep-frying them.",
       "vegan": false
+    },
+    {
+      "id": "5",
+      "title": "Adobong Kangkong",
+      "image": "kangkong.jpg",
+      "time": 4,
+      "description": "Adobong Kangkong Vegan is a plant-based twist on the classic Filipino dish, made with tender water spinach (kangkong) simmered in a savory blend of soy sauce, vinegar, garlic, and onions. This vegan-friendly recipe omits traditional animal-based ingredients like meat or fish sauce, relying instead on seasonings and aromatics to create a flavorful and hearty dish. Perfect as a side or a main, it pairs beautifully with steamed rice for a simple yet satisfying meal.",
+      "vegan": true
     }
   ]
 }
