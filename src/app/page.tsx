@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import {
   Card,
   CardContent,
@@ -8,6 +6,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+
+import { Badge } from "@/components/ui/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
 
 interface Recipe {
   title: string;
@@ -32,6 +34,7 @@ export default async function Home() {
         {recipes.map((recipe) => (
           <Card key={recipe.id} className="flex flex-col justify-between">
             <CardHeader className="flex-row gap-4 items center">
+              {/*Avatar here*/}
               <div>
                 <CardTitle>{recipe.title}</CardTitle>
                 <CardDescription>{recipe.time} mins to cook</CardDescription>
