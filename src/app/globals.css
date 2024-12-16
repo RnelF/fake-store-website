@@ -85,3 +85,13 @@ h1 {
 h2 {
   @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0;
 }
+
+.example-button {
+  background: rgb(86, 1, 245);
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 0.4rem;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}

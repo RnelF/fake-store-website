@@ -10,6 +10,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
+import BasicsOfMotions from "@/components/BasicsOfMotions";
 
 interface Recipe {
   title: string;
@@ -33,6 +34,7 @@ export default async function Home() {
   const recipes = await getRecipes();
   return (
     <main>
+      <BasicsOfMotions />
       <div className="grid grid-cols-3 gap-8">
         {recipes.map((recipe) => (
           <Card key={recipe.id} className="flex flex-col justify-between">
