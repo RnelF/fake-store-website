@@ -35,6 +35,7 @@ export default async function Home() {
   return (
     <main>
       <BasicsOfMotions />
+
       <div className="grid grid-cols-3 gap-8">
         {recipes.map((recipe) => (
           <Card key={recipe.id} className="flex flex-col justify-between">
