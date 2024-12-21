@@ -11,6 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import BasicsOfMotions from "@/components/BasicsOfMotions";
+import Gestures from "@/components/Gestures";
 
 interface Recipe {
   title: string;
@@ -34,9 +35,10 @@ export default async function Home() {
   const recipes = await getRecipes();
   return (
     <main>
-      <BasicsOfMotions />
+      {/*<BasicsOfMotions />*/}
+      <Gestures />
 
-      <div className="grid grid-cols-3 gap-8">
+      {/* <div className="grid grid-cols-3 gap-8">
         {recipes.map((recipe) => (
           <Card key={recipe.id} className="flex flex-col justify-between">
             <CardHeader className="flex-row gap-4 items center">
@@ -59,7 +61,7 @@ export default async function Home() {
             </CardFooter>
           </Card>
         ))}
-      </div>
+      </div>*/}
     </main>
   );
 }
