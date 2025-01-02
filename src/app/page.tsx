@@ -12,6 +12,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import BasicsOfMotions from "@/components/BasicsOfMotions";
 import Gestures from "@/components/Gestures";
+import AnimationControls from "@/components/AnimationControls";
 
 interface Recipe {
   title: string;
@@ -35,6 +36,7 @@ export default async function Home() {
   const recipes = await getRecipes();
   return (
     <main>
+      <AnimationControls />
       {/*<BasicsOfMotions />
       <Gestures /> */}
 
