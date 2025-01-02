@@ -35,8 +35,8 @@ export default async function Home() {
   const recipes = await getRecipes();
   return (
     <main>
-      {/*<BasicsOfMotions />*/}
-      <Gestures />
+      {/*<BasicsOfMotions />
+      <Gestures /> */}
 
       {/* <div className="grid grid-cols-3 gap-8">
         {recipes.map((recipe) => (
