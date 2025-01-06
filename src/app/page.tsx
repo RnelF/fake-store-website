@@ -13,6 +13,7 @@ import { Button } from "@/components/ui/button";
 import BasicsOfMotions from "@/components/BasicsOfMotions";
 import Gestures from "@/components/Gestures";
 import AnimationControls from "@/components/AnimationControls";
+import ViewBasedAnimations from "@/components/ViewBasedAnimations";
 
 interface Recipe {
   title: string;
@@ -36,8 +37,9 @@ export default async function Home() {
   const recipes = await getRecipes();
   return (
     <main>
-      <AnimationControls />
-      {/*<BasicsOfMotions />
+      <ViewBasedAnimations />
+      {/*<AnimationControls />
+      <BasicsOfMotions />
       <Gestures /> */}
 
       {/* <div className="grid grid-cols-3 gap-8">
