@@ -7,9 +7,10 @@ export default function ViewBasedAnimations() {
   const isInView = useInView(ref, { once: true });
   useEffect(() => {
     console.log("Is in view -> ", isInView);
-  });
+  }, [isInView]);
   return (
-    <div style={{ height: "150vh" }}>
+    <>
+      <div style={{ height: "150vh" }} />
       <motion.div
         style={{ height: "100vh", background: "black" }}
         initial={{ opacity: 0 }}
@@ -24,6 +25,6 @@ export default function ViewBasedAnimations() {
           transition: "1s background",
         }}
       />
-    </div>
+    </>
   );
 }

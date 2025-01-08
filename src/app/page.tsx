@@ -14,6 +14,7 @@ import BasicsOfMotions from "@/components/BasicsOfMotions";
 import Gestures from "@/components/Gestures";
 import AnimationControls from "@/components/AnimationControls";
 import ViewBasedAnimations from "@/components/ViewBasedAnimations";
+import ScrollAnimations from "@/components/ScrollAnimations";
 
 interface Recipe {
   title: string;
@@ -37,8 +38,9 @@ export default async function Home() {
   const recipes = await getRecipes();
   return (
     <main>
-      <ViewBasedAnimations />
-      {/*<AnimationControls />
+      <ScrollAnimations />
+      {/*<ViewBasedAnimations />
+      <AnimationControls />
       <BasicsOfMotions />
       <Gestures /> */}
 
